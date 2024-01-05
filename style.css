@@ -10,8 +10,24 @@ body {
     background-color: #d4d2d2;
 }
 
+/* HEADER */
+
+header {
+    background: linear-gradient(to right, #96002d, #6e001e);
+    padding: 1.5rem 0;
+}
+
+nav {
+    border-bottom: 2px solid white; /* Adjust the color as needed */
+}
+
+.nav-links a.active {
+    color: white;
+    font-weight: 600;
+}
+
 h1, h2, h3 {
-    color: #f9a7c4;
+    color: #96002d;
   }
 
 html {
@@ -62,7 +78,7 @@ a:hover {
 }
 
 .logo{
-    color: #f9a7c4;
+    color: #96002d;
     font-size: 2rem;
 }
 
@@ -171,6 +187,7 @@ section{
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
 }
 
 .section__pic-container {
@@ -213,7 +230,7 @@ section{
 /* ICONS */
 
 .icon{
-    fill: #d24d72;
+    fill: #96002d;
     cursor: pointer;
     height: 2rem;
 }
@@ -304,8 +321,9 @@ section{
     background: whitesmoke;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: #d24d72;
+    border-color: #96002d;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
 }
 
 
@@ -366,8 +384,9 @@ article .icon {
 }
 
 .color-container{
-    border-color: #d24d72;
+    border-color: #96002d;
     background: rgb(250,250250);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
 }
 
 .project-img {
@@ -375,16 +394,21 @@ article .icon {
     width: 100%; 
     height: 100%;
     object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
   }
 
 .project-title {
     margin: 1rem;
     color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #96002d;
 }
 
 .project-btn {
     color: black;
-    border-color: #d24d72;
+    border-color: #96002d;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.0);
 }
 
 /* CONTACT */
@@ -401,10 +425,11 @@ article .icon {
     justify-content: center;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: #d24d72;
+    border-color: ##96002d;
     background: whitesmoke;
     margin: 2rem auto;
     padding: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.0);
 }
 
 .contact-info-container {
@@ -432,8 +457,12 @@ article .icon {
 footer {
     height: 26vh;
     margin: 0.1rem;
+    background-color: #96002d;
+    padding: 0.5rem;
 }
 
 footer p {
     text-align: center;
-}   
+    color: white;
+    font-size: 1rem;
+} 
